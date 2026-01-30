@@ -23,24 +23,21 @@ Download the container image from the registry
 docker pull cleanstart/redis:latest
 ```
 ```bash
-docker pull cleanstart/redis:6.2
-```
-```bash
-docker pull cleanstart/redis:stable
+docker pull cleanstart/redis:latest-dev
 ```
 
 ## Basic Run
 Run the container with basic configuration
 
 ```bash
-docker run -it --name redis cleanstart/redis:latest
+docker run -it --name redis-test cleanstart/redis:latest
 ```
 
 ## Production Deployment
 Deploy with production security settings
 
 ```bash
-docker run -d --name redis-prod \
+docker run -d --name redis \
   --security-opt=no-new-privileges \
   --user 1000:1000 \
   --restart unless-stopped \
@@ -64,15 +61,18 @@ docker run -p 8080:8080 cleanstart/redis:latest
 ## Environment Variables
 Configuration options available through environment variables
 
-| Variable | Default | Description |
-|----------|---------|-------------|
-| ENV | production | Environment mode |
-| LOG_LEVEL | info | Logging level |
 
 ## Security Best Practices
 Recommended security configurations and practices
 
-
+Always set a strong Redis password
+Configure proper network access controls
+Enable TLS encryption for Redis connections
+Implement memory usage limits
+Regular backups of Redis data
+Monitor Redis logs and metrics
+Use Redis ACLs for access control
+Keep Redis version up to date
 
 ## Kubernetes Security Context
 Recommended security context for Kubernetes deployments
