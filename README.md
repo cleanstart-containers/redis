@@ -63,7 +63,7 @@ Configuration options available through environment variables
 
 
 ## Security Best Practices
-Recommended security configurations and practices
+###Recommended security configurations and practices
 
 Always set a strong Redis password
 
