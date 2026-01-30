@@ -66,12 +66,19 @@ Configuration options available through environment variables
 Recommended security configurations and practices
 
 Always set a strong Redis password
+
 Configure proper network access controls
+
 Enable TLS encryption for Redis connections
+
 Implement memory usage limits
+
 Regular backups of Redis data
+
 Monitor Redis logs and metrics
+
 Use Redis ACLs for access control
+
 Keep Redis version up to date
 
 ## Kubernetes Security Context
