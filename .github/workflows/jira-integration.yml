@@ -10,7 +10,7 @@ on:
 
 jobs:
   create-ticket:
-    uses: cleanstart-containers/.github/.github/workflows/reusable-jira-integration.yml@main
+    uses: cleanstart-containers/.github/.github/workflows/master-jira-integration.yml@main
     with:
       project_key: 'GHRT'
       issue_type: 'Task'
