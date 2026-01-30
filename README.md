@@ -92,6 +92,7 @@ Essential links and resources for further information
 
 - **Container Registry**: [https://www.cleanstart.com/](https://www.cleanstart.com/)
 - **CleanStart Community Images**: [https://hub.docker.com/u/cleanstart](https://hub.docker.com/u/cleanstart)
+- **Redis Documentation**: [https://redis.io/docs/](https://redis.io/docs/)
 - **How-to-Run CleanStart images & sample projects**: [https://github.com/cleanstart-dev/cleanstart-containers](https://github.com/cleanstart-dev/cleanstart-containers)
   - How to run sample projects using Dockerfile
   - How to deploy via Kubernetes YAML
