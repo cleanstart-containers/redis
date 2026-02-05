@@ -5,7 +5,8 @@ Redis is an open-source, in-memory data structure store used as a database, cach
 📌 **Base Foundation**: Production-ready container from cleanstart.
 
 **Image Path**: `redis`
-**Registry**: cleanstart Registry
+
+**Registry**: `cleanstart`
 
 ## Key Features
 Core capabilities and strengths of this container
