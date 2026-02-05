@@ -21,17 +21,17 @@ Typical scenarios where this container excels
 Download the container image from the registry
 
 ```bash
-docker pull cleanstart/redis:latest
+docker pull ghcr.io/cleanstart-containers/redis:latest
 ```
 ```bash
-docker pull cleanstart/redis:latest-dev
+docker pull ghcr.io/cleanstart-containers/redis:latest-dev
 ```
 
 ## Basic Run
 Run the container with basic configuration
 
 ```bash
-docker run -it --name redis-test cleanstart/redis:latest
+docker run -it --name redis-test ghcr.io/cleanstart-containers/redis:latest
 ```
 
 ## Production Deployment
@@ -42,19 +42,19 @@ docker run -d --name redis \
   --security-opt=no-new-privileges \
   --user 1000:1000 \
   --restart unless-stopped \
-  cleanstart/redis:latest
+  ghcr.io/cleanstart-containers/redis:latest
 ```
 
 Volume Mount Mount local directory for persistent data
 
 ```bash
-docker run -v /app:/app cleanstart/redis:latest
+docker run -v /app:/app ghcr.io/cleanstart-containers/redis:latest
 ```
 
 Port Forwarding Run with custom port mappings
 
 ```bash
-docker run -p 8080:8080 cleanstart/redis:latest
+docker run -p 8080:8080 ghcr.io/cleanstart-containers/redis:latest
 ```
 
 ## Environment Variables
