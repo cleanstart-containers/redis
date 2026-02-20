@@ -8,9 +8,6 @@ This folder showcases how to run and use the **cleanstart/redis:latest-dev** Doc
 docker pull cleanstart/redis:latest-dev
 ```
 
-> **Note:** If you use the GitHub Container Registry image instead:  
-> `docker pull cleanstart/redis:latest-dev`
-
 ## 2. Run with Docker
 
 ### Basic run (interactive)
